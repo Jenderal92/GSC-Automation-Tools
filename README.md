@@ -1,12 +1,16 @@
 # **Google Search Console Automation Tools**
 
+![GSC-Automation-Tools Jenderal92](https://github.com/user-attachments/assets/ffef1158-4590-49bf-862a-eaed954b3a9f)
+
+
+
 This tool automates the retrieval of performance data from Google Search Console using the API, allowing for efficient website performance analysis. The data is saved as a CSV file, making it easy to review and process further. It is designed for compatibility with **Python 2.7**.
 ---
 
 ## **Features**
 - **Secure Authentication:** Uses Google API credentials with a Service Account for secure access.  
 - **Automated Data Retrieval:** Fetches performance data (clicks, impressions, CTR, position) based on customizable dimensions.  
-- **CSV Export:** Saves the retrieved data directly to a CSV file.  
+- **Json Export:** Saves the retrieved data directly to a Json file.  
 ---
 
 ## **Requirements**
@@ -38,7 +42,7 @@ For a detailed guide, see [Google's API documentation](https://developers.google
 2. Update the configuration in `gsc_automation.py`:  
    - **`CREDENTIALS_FILE`**: Path to your JSON credentials file.  
    - **`SITE_URL`**: The URL of the Google Search Console property you want to retrieve data from.  
-   - **`OUTPUT_FILE`**: The name of the CSV output file.  
+   - **`OUTPUT_FILE`**: The name of the JSON output file.  
 3. Run the script with:  
    ```bash
    python gsc_automation.py
@@ -55,22 +59,3 @@ For a detailed guide, see [Google's API documentation](https://developers.google
   - Or any combination of dimensions supported by the API.
 
 ---
-
-## **Output**
-- The tool generates a CSV file with the following structure:  
-  - Columns: `query`, `clicks`, `impressions`, `ctr`, `position`  
-- Example output:  
-  ```
-  query,clicks,impressions,ctr,position
-  example query 1,10,100,0.1,1.5
-  example query 2,20,150,0.13,2.0
-  ```
-
----
-
-### **Keywords**
-- Google Search Console  
-- GSC Automation  
-- Python 2.7 Tools  
-- CSV Data Export  
-- API Integration  
