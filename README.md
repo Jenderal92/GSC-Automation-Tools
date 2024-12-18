@@ -2,7 +2,7 @@
 
 ![GSC-Automation-Tools Jenderal92](https://github.com/user-attachments/assets/ffef1158-4590-49bf-862a-eaed954b3a9f)
 
-This tool automates the retrieval of performance data from Google Search Console using the API, allowing for efficient website performance analysis. The data is saved as a CSV file, making it easy to review and process further. It is designed for compatibility with **Python 2.7**.
+This tool automates the retrieval of performance data from Google Search Console using the API, allowing for efficient website performance analysis. The data is saved as a JSON file, making it easy to review and process further. It is designed for compatibility with **Python 2.7**.
 ---
 
 ## **Features**
